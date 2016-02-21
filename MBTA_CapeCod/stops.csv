@@ -1,0 +1,134 @@
+stop_code,stop_id,stop_name,stop_lat,stop_lon,location_type
+1,HTC,Hyannis Transportation Center (HTC),41.656589000000004,-70.280176,0
+2,HyannisDocks,"Steamship Authority Ferry Docks, Hyannis",41.650733,-70.277411,0
+4,HyannisYouth,Hyannis Youth & Community Center,41.654563,-70.292781,0
+5,CCMall-FC,"Cape Cod Mall (Food Court), Hyannis",41.668803000000004,-70.29804,0
+6,CapetownPl,"Capetown Plaza, Hyannis",41.670189,-70.295209,0
+7,SouthwindPl,"Southwind Plaza, Hyannis",41.675083,-70.30184200000001,0
+8,FestivalMall,"Festival Mall, Hyannis",41.675976,-70.303996,0
+9,WilkensMed,"Wilkens Outpatient Medical Complex, Hyannis",41.678282,-70.303667,0
+10,SuperS&SHyannis,"Super Stop & Shop (Liberty Square), Hyannis",41.6759,-70.307469,0
+12,CapeCodder,"Cape Codder Resort, Hyannis",41.675375,-70.310742,0
+13,CCCC,"Cape Cod Community College, West Barnstable",41.690621,-70.337526,0
+14,BarnstableCourthouse,"Courthouse Complex, Barnstable",41.70032,-70.303038,0
+15,BarnstableHarbor,Barnstable Harbor,41.708667999999996,-70.298027,0
+17,CCMall-RE,"Cape Cod Mall Enterance/Route 28, Hyannis",41.664885,-70.294989,0
+18,WMain28Centerville,"West Main Street & Route 28, Centerville",41.657707,-70.332487,0
+19,Centerville,Centerville (Old Stage Road & Main Street),41.64973,-70.348551,0
+20,Osterville,Osterville (Tower Hill Road & Main Street),41.627971,-70.383099,0
+21,MarstonsMills,Marstons Mills Marketplace,41.647959,-70.42643699999999,0
+22,MashpeeCommons,Mashpee Commons (Stop & Shop),41.619243,-70.489449,0
+23,SCapeVillage,"South Cape Village (Marshalls), Mashpee",41.611492999999996,-70.488287,0
+24,CommHealth,Community Health Center of Cape Cod,41.607559,-70.48999,0
+25,EFalmouthDunkin,East Falmouth Dunkin Donuts,41.578656,-70.56074100000001,0
+28,28JonesFalmouth,"Route 28 @ Jones Road, Falmouth",41.56100000000001,-70.59912800000001,0
+29,FalmouthMall,Falmouth Mall,41.561321,-70.594186,0
+30,FalmouthBusDepot,Falmouth Bus Depot,41.556834,-70.623239,0
+31,WoodsHoleDocks,"Steamship Authority Ferry Docks, Woods Hole",41.52303,-70.669797,0
+32,StFrancisSchool,"St. Francis/Pope John Paul, Hyannis",41.648343,-70.284992,0
+33,SturgisSchoolEast,"Sturgis Charter School -- Main Street, Hyannis",41.652118,-70.285388,0
+34,SturgisSchoolEastSouthSt,"Sturgis Charter School @ South Street, Hyannis",41.650688,-70.284348,0
+35,SturgisSchoolWest,"Sturgis Charter School -- West Main Street, Hyannis",41.647759,-70.300628,0
+37,CCHospitalBayviewSt,"Cape Cod Hospital (Bayview Street), Hyannis",41.652859,-70.27211700000001,0
+38,CrowellWYarmouth,"Higgins Crowell Road, West Yarmouth",41.650628999999995,-70.242088,0
+40,S&SSYarmouth,"Stop & Shop, South Yarmouth",41.658091,-70.207195,0
+41,ShawsSYarmouth,"Shaw's, South Yarmouth",41.662202,-70.2022,0
+42,MainSYarmouth,"Main Street, South Yarmouth",41.666857,-70.185688,0
+43,PatriotSq,"Patriot Square, South Dennis",41.695060999999995,-70.15047,0
+44,DennisMunicipal,"Municipal Lot A, Dennis Port",41.668344,-70.123136,0
+45,StarMarketHarwich,"Star Market, Harwich Port",41.672995,-70.092812,0
+46,28Harwich,"Route 28, Harwich Port",41.668043,-70.08008199999999,0
+47,MortonSChatham,"Morton Road, South Chatham",41.678759,-70.026646,0
+48,AnchorageChatham,"Anchorage/Crowell Road, Chatham",41.691424,-69.96589399999999,0
+49,ChathamRotary,Chatham Rotary,41.682656,-69.961949,0
+50,39SOrleans,"Route 39, South Orleans",41.752914000000004,-69.990938,0
+51,MainOrleansLandHo,"Main Street/Land Ho, Orleans",41.78824,-69.99141999999999,0
+52,MainOrleansCVSMobil,"Main Street/CVS/Mobil, Orleans",41.787853999999996,-69.99183199999999,0
+53,SkaketCorners,"Skaket Corners, Orleans",41.780229999999996,-70.002528,0
+54,OldColonyVillage,"Old Colony Village, Orleans",41.785393,-69.997352,0
+55,S&SOrleans,"Stop & Shop, Orleans",41.796182,-69.985665,0
+56,HarwichComm,Harwich Community Center/High School,41.692133,-70.069797,0
+57,S&SEHarwich,"Stop & Shop, East Harwich",41.706445,-70.01894300000001,0
+58,LighthouseSchool,"Cape Cod Lighthouse Charter School, East Harwich",41.711126,-70.025756,0
+59,UnderpassBrewster,"Underpass Road & Snow Road, Brewster",41.756593,-70.066313,0
+60,BrewsterSenior,Brewster Senior Housing/COA,41.756823,-70.090138,0
+61,NickersonPark,"Nickerson State Park, Brewster",41.77519,-70.030742,0
+62,EasthamTownHallSuperette,Eastham Town Hall/Superette,41.829763,-69.973642,0
+64,SaltPond,"Salt Pond Visitor Center, Eastham",41.838034,-69.97196600000001,0
+65,FourPoints,"Four Points, Eastham",41.846503999999996,-69.985569,0
+66,SeamansBank,"Seaman's Bank @ Route 6, Eastham",41.854667,-69.987723,0
+67,NausetSchool,"Nauset Regional High School, Eastham",41.858374,-69.968598,0
+68,Blackfish,"Blackfish Variety (Farrell's Market), Wellfleet",41.917199,-69.994566,0
+70,Wellfleet,Wellfleet Center (Bank Street),41.937534,-70.030784,0
+71,JamsStore,"Jam's Store, Truro",41.993412,-70.04992299999999,0
+72,WhitmanvilleTruro,"Whitmanville Road @ Route 6, Truro",42.013719,-70.07056800000001,0
+73,TruroVillage,Truro Central Village Plaza @ Route 6,42.013923999999996,-70.070861,0
+74,HighlandNTruro,"Highland Road & Route 6, North Truro",42.035359,-70.082229,0
+75,MacMillanPier,"MacMillan Pier, Provincetown",42.050958,-70.18624,0
+76,S&SPtown,"Stop & Shop, Provincetown",42.050534000000006,-70.195276,0
+77,MarconiBeach,"Marconi Beach Road, Wellfleet",41.904744,-69.983429,0
+78,FalmouthPl,Falmouth Plaza,41.556172,-70.59978100000001,0
+79,ColonialPl,"Colonial Plaza, Falmouth",41.555067,-70.600112,0
+80,FalmouthLib,Falmouth Library,41.552095,-70.614071,0
+81,FalmouthBikePath,"Shining Sea Bike Path, Falmouth",41.551519,-70.627086,0
+82,OysterPondFalmouth,"Oyster Pond Road, Falmouth",41.54374,-70.648431,0
+83,OceanInstitution,Woods Hole Oceanographic Institution,41.534499,-70.653101,0
+84,FalmouthChamber,Falmouth Chamber of Commerce,41.552334,-70.616674,0
+85,WaterWoodsHole,"Water Street/Luscombe Avenue, Woods Hole",41.523854,-70.669412,0
+86,HortonsCamping,"Horton's Camping Resort, North Truro",42.035918,-70.066096,0
+87,DutrasMrkt,"P&B Bus Stop/Dutra's Market, North Truro",42.0341,-70.084786,0
+88,HighlandLight,"Highland Museum & Lighthouse, North Truro",42.038762,-70.064984,0
+89,NTruroCamp,North Truro Camping Area,42.038004,-70.07494100000001,0
+90,BeechForest,"Beech Forest, Provincetown",42.06563,-70.192717,0
+91,HerringCove,"Herring Cove Beach, Provincetown",42.043813,-70.216447,0
+92,PilgrimsPark,"First Pilgrims Park/Provincetown Inn, Provincetown",42.037244,-70.196152,0
+93,RacePoint,"Race Point, Provincetown",42.07931,-70.21812,0
+94,ProvinceLandsVC,"Province Lands Visitor Center, Provincetown",42.073859000000006,-70.205744,0
+95,PtownAirport,Provincetown Municipal Airport,42.076165,-70.217163,0
+96,JFK,"JFK Museum, Hyannis",41.652577,-70.284375,0
+97,BassettHyannis,"Bassett Lane, Hyannis",41.650143,-70.289168,0
+98,Hy-LineDocks,"Hy-Line Ferry Docks, Hyannis",41.648140000000005,-70.27964200000001,0
+99,OceanStateJL,"Ocean State Job Lot, Buzzanrds Bay",41.751686,-70.598997,0
+100,SagamoreP&R,Sagamore Park & Ride,41.780954,-70.542438,0
+101,CanalViewApts,"Canal View Apartments, Sagamore",41.773428,-70.539887,0
+102,ShawmeHeights,"Shawme Heights, Sandwich",41.763273,-70.50636300000001,0
+103,S&S6ASandwich,"Stop & Shop, Route 6A, Sandwich",41.766387,-70.509442,0
+104,SandwichTownHall,Sandwich Town Hall,41.75825,-70.50053299999999,0
+105,SpauldingRehab,"Spaulding Rehabilitation, East Sandwich",41.733048,-70.46786800000001,0
+106,SandwichCOA,Sandwich COA,41.7214,-70.460636,0
+107,HeritagePark,"Heritage Park, Sandwich",41.710793,-70.489098,0
+108,SandwichHousing,"Sandwich Housing Authority, Tom's Way, Sandwich",41.708343,-70.48984399999999,0
+109,CanterburyPlaza,"Canterbury Plaza, Sandwich",41.708328,-70.48846400000001,0
+110,S&SQuakerMHRdSandwich,"Stop & Shop, Quaker Meeting House Road, Sandwich",41.7014,-70.48547099999999,0
+112,CapeSideConvenience,"Cape Side Convenience, Bourne",41.742638,-70.58896899999999,0
+113,CountyBeach,"County Road @ Beach Street, Monument Beach",41.718046,-70.608946,0
+114,RolandPhinney,"Bourne Housing Authority, Roland Phinney Place, Pocasset",41.692069000000004,-70.617864,0
+115,CCSeniorRes,"Cape Cod Senior Residences, Pocasset",41.686205,-70.601371,0
+116,CataumetMotel,Cataumet Motel/Stramship Authority Cataumet Parking Lot,41.666721,-70.60299,0
+117,151&28A,"Route 151 & Route 28A, North Falmouth",41.646696,-70.612639,0
+119,151SandwichRd,"Sandwich Road @ Route 151, East Falmouth",41.62477,-70.54973299999999,0
+120,151AlgonquinAve,"Algonquin Avenue @ Route 151, Mashpee",41.616256,-70.51460300000001,0
+123,MktBasketSagamore,"Market Basket, Sagamore",41.771161,-70.545953,0
+126,HeritageMuseum,"Heritage Museums, Sandwich",41.748896,-70.50840500000001,0
+127,SeaCrestHotel,"Sea Crest Hotel, North Falmouth",41.626129,-70.637825,0
+128,CotuitFarmersvilleSandwich,"Cotuit Road & Farmersville Road, Sandwich",41.696464,-70.481658,0
+131,RaceGrHillSandwich,"Race Lane/Farmersville Road & Great Hill Road, Sandwich",41.690338,-70.444168,0
+132,RaceOsterWBarnSandwich,"Race Lane & Osterville-West Barnstable Road, Sandwich",41.677082,-70.387141,0
+133,BellTowerMall,"Bell Tower Mall, Centerville",41.657134,-70.345399,0
+134,StarMktHyannis,"West Main Street @ Star Market, Hyannis",41.652074,-70.317918,0
+135,LeCountSWellfleet,"LeCount Hollow Road, South Wellfleet",41.916323,-69.989664,0
+136,MeadowBeach,"Head duof the Meadow Beach, North Truro",42.038066,-70.085435,0
+137,ProvinceLandRdPtown,"Province Land Road, Provincetown",42.04638,-70.217019,0
+138,CobbLibrary,"Old Cobb Library, Truro",41.994787,-70.05096400000001,0
+139,HarmonyHill,"Harmony Hill Road, Bourne",41.713514,-70.58507900000001,0
+140,SeacoastShores,"Seacoast Shores Boulevard, East Falmouth",41.580442,-70.533946,0
+141,IslandQueen,"Island Queen Ferry, Falmouth",41.552181,-70.600534,0
+142,BuzzardsBayTrain,Buzzards Bay Train Station,41.744823,-70.615218,0
+143,BrackettRd,"Brackett Road @ Route 6, Eastham",41.856590999999995,-69.98694499999999,0
+144,OuterCapeHealthMaushopSenior,"Outer Cape Health Services/Maushop Senior Housing, Provincetown",42.058487,-70.183973,0
+145,PayometTent,"Payomet Tent, Truro",42.031289,-70.05653000000001,0
+146,Continential,"Continental Housing Authority, Bourne",41.7574,-70.595584,0
+147,BourneOaks,"Bourne Oaks Housing Authority, Bourne",41.753071999999996,-70.598541,0
+148,BourneScenicPark,Bourne Scenic Park,41.751672,-70.590949,0
+149,BourneCOA,Bourne COA,41.749455,-70.604325,0
+150,WalmartWareham,"Walmart, Wareham",41.758072,-70.663379,0

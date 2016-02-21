@@ -1,0 +1,12 @@
+route_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+H2O,,H2O Hyannis-Orleans,The H2O is a regularly scheduled bus service between Hyannis and Orleans along route 28.,3,http://capecodrta.org/h2o-route.htm,00A75E,FFFFFF
+Sealine,,Sealine Hyannis-Falmouth/Woods Hole,The Sealine is a regularly scheduled bus service between Hyannis and Falmouth/Woods Hole.,3,http://capecodrta.org/sealine-route.htm,005CAA,FFFFFF
+Sandwich,,The Sandwich Line,The Sandwich Line is a regularly scheduled bus service between Sagamore Park and Ride and Hyannis Transportation Center.,3,http://capecodrta.org/sandwich-route.htm,AC6813,FFFFFF
+Bourne,,The Bourne Run,The Bourne Run is a regularly scheduled bus service between Sagamore Park and Ride and Falmouth.,3,http://capecodrta.org/bourne-route.htm,E5173E,FFFFFF
+CapeFLYER,,CapeFLYER Connection,The CapeFLYER Connection is a special weekend service of the Bourne Run that offers runs between Buzzards Bay Train Station and Falmouth Mall.,3,http://capecodrta.org/bourne-route.htm,E5173E,FFFFFF
+FLEX,,FLEX,"The FLEX Route is a regularly scheduled bus service between Harwich and Provincetown, with optional off-route service.",3,http://capecodrta.org/FLEX-route.htm,633A82,FFFFFF
+Villager,,Barnstable Villager,The Barnstable Villager is a regularly scheduled bus service between Hyannis and Barnstable.,3,http://capecodrta.org/barnstable-route.htm,FFD900,000000
+Ptown,,Provincetown/North Truro Shuttle,The Provincetown Shuttle is a regularly scheduled seasonal bus service between North Truro and Provincetown.,3,http://capecodrta.org/ptown-route.htm,A2501C,FFFFFF
+WHOOSH,,WHOOSH Trolley,The WHOOSH Trolley is a regularly scheduled seasonal bus service between Falmouth Mall and Woods Hole Docks.,3,http://capecodrta.org/whoosh-route.htm,658427,FFFFFF
+Hyannis,,Hyannis Area Trolley,Hyannis Trolley is a regularly scheduled seasonal bus service within Hyannis.,3,http://capecodrta.org/hyannis-trolley.htm,231F20,FFFFFF
+Bike,,"Outer Cape Bike Shuttle""",The Outer Cape Bike Shuttle is a regularly scheduled seasonal bus service between Wellfleet and Provincetown.,3,http://capecodrta.org/,F37322,FFFFFF

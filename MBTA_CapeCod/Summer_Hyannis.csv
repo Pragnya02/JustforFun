@@ -1,0 +1,7 @@
+trip_id,start_time,end_time,headway_secs,exact_times,arrival_time,departure_time,stop_id,stop_sequence,pickup_type,drop_off_type,route_id,service_id,direction_id,block_id,shape_id
+Hyannis_Summer,11:00:00,21:00:00,1800,1,11:00:00,11:00:00,HTC,1,0.0,0.0,Hyannis,Summer_Hyannis,,,Shp_Hyannis
+Hyannis_Summer,11:00:00,21:00:00,1800,1,,,JFK,2,0.0,0.0,Hyannis,Summer_Hyannis,,,Shp_Hyannis
+Hyannis_Summer,11:00:00,21:00:00,1800,1,,,BassettHyannis,3,0.0,0.0,Hyannis,Summer_Hyannis,,,Shp_Hyannis
+Hyannis_Summer,11:00:00,21:00:00,1800,1,,,Hy-LineDocks,4,0.0,0.0,Hyannis,Summer_Hyannis,,,Shp_Hyannis
+Hyannis_Summer,11:00:00,21:00:00,1800,1,,,HyannisDocks,5,0.0,0.0,Hyannis,Summer_Hyannis,,,Shp_Hyannis
+Hyannis_Summer,11:00:00,21:00:00,1800,1,11:30:00,11:30:00,HTC,6,0.0,0.0,Hyannis,Summer_Hyannis,,,Shp_Hyannis
