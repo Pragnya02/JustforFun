@@ -9,26 +9,19 @@ from random import shuffle
 deck={}
 card={}
 def deckOfCards():
-    family=['Heart','Spades','Clubs','Diamond']
-    #color['heart','diamond']="red"
-    #color['space','claver']="black"
+    family=['Heart','Spades','Clubs','Diamond'] #Family of Cards
     number=['Ace','King','Queen','Jack',"Ten","Nine","Eight","Seven","Six","Five","Four","Three","Two"]
-    deck={}
-    card={}
 
     deck=[[a,b] for a in family for b in number]
-
-        #print deck
-
     return deck
 
 def userChoice():
-    choice=raw_input("Choose 4 numbers (1-52) with space between each number: ")
+    choice=raw_input("Choose 4 unique numbers (0-51) with space between each number: ")
     option=choice.split(" ")
     return option
 
+#Generate a unique number for each card
 def generateNumberforCard(deck):
-
     for i in range(0,len(deck)):
         card[i]=deck[i]
     return card
@@ -60,17 +53,27 @@ def isWinner(selectedCard):
 def main():
     print " "
     selectedCard=[]
+    #Stores Deck of Cards
     deck=deckOfCards()
-    #print deck
-    card=generateNumberforCard(deck)
-    option=userChoice()
-    #print option
+
+    #Shuffle the cards
     shuffledCard = shuffle_card(card)
+
+    #Creates a number for Deck of Cards
+    card=generateNumberforCard(deck)
+
+    #Takes in User Options (4 numbers)
+    option=userChoice()
+
     for i in option:
         selectedCard.append(shuffledCard[int(i)])
 
-    print "Your Cards are: "
+    print "The Cards you have chosen are: "
+
+    #Print the cards you have chosen
     printSelectedCard(selectedCard)
+
+    #Check if winner or not
     isWinner(selectedCard)
 if __name__ == '__main__':
     main()
