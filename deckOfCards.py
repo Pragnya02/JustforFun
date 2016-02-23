@@ -56,11 +56,11 @@ def main():
     #Stores Deck of Cards
     deck=deckOfCards()
 
-    #Shuffle the cards
-    shuffledCard = shuffle_card(card)
-
     #Creates a number for Deck of Cards
     card=generateNumberforCard(deck)
+
+    #Shuffle the cards
+    shuffledCard = shuffle_card(card)
 
     #Takes in User Options (4 numbers)
     option=userChoice()
