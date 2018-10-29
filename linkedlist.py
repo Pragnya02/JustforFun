@@ -4,7 +4,7 @@ Traverse
 Delete a value
 Reverse
 Traverse and print
-
+print from kth to last index of linked list
 @author : Pragnya Srinivasan
 '''
 class Node:
@@ -27,8 +27,22 @@ class LinkedList:
       self.node.next = new_node
       self.node = new_node
 
-  def print_list(self):
-    temp = self.head
+  def print_list(self,k=None):
+    curr = self.head
+    temp=None
+    i = 0
+    if k :
+      while curr:
+        if i == k:
+          temp = curr
+        curr = curr.next
+        i = i+1
+
+    else:
+      temp = self.head
+
+    # if temp is None even if k is given , 
+    # k is not within the len of linked list
     while temp:
       yield temp.data
       temp = temp.next
@@ -65,6 +79,7 @@ class LinkedList:
       temp = t_d
     self.head = prev
 
+  
 llist = LinkedList()
 llist.add_node(1)
 #print(list(llist.print_list()))
@@ -89,3 +104,6 @@ print(list(llist.print_list()))
 llist.reverse_ll()
 
 print(list(llist.print_list()))
+
+# Print from kth index to last
+print(list(llist.print_list(3)))
