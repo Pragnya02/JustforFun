@@ -5,6 +5,8 @@ Delete a value
 Reverse
 Traverse and print
 print from kth to last index of linked list
+Check if is palindrome
+
 @author : Pragnya Srinivasan
 '''
 class Node:
