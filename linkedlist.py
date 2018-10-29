@@ -6,9 +6,11 @@ Reverse
 Traverse and print
 print from kth to last index of linked list
 Check if is palindrome
+Delete all duplicate elements from LL
 
 @author : Pragnya Srinivasan
 '''
+
 class Node:
   def __init__(self,data):
     self.data = data
@@ -29,7 +31,7 @@ class LinkedList:
       self.node.next = new_node
       self.node = new_node
 
-  def print_list(self,k=None):
+  def get_list(self,k=None):
     curr = self.head
     temp=None
     i = 0
@@ -80,10 +82,32 @@ class LinkedList:
       prev = temp
       temp = t_d
     self.head = prev
-  
-  #Return if LL is a Palindrome
+
+  #Delete all duplicate elements from linked list
+  def delete_duplicate(self):
+    llist = list(self.get_list())
+    dup = set()
+    # find all duplicate elemts in list
+    for i in range(len(llist)-1):
+      if llist[i] in llist[1+1:]:
+        dup.add(llist[i])
+
+    temp = self.head
+    # Append first element of the ll 
+    while temp:
+      if temp.data in dup:
+        if not temp.next:
+          self.head = None
+          return
+        else:
+          temp.data = temp.next.data
+          temp.next = temp.next.next
+      else :
+        temp = temp.next
+
+
   def is_palindrome(self):
-    li_list = list(self.print_list())
+    li_list = list(self.get_list())
     print(li_list)
     j = len(li_list)-1
     print(j)
@@ -94,35 +118,36 @@ class LinkedList:
         return("Not a Palindrome")
       j = j-1   
     return("Is a Palindrome")
+    
 
-  
 llist = LinkedList()
 llist.add_node(1)
-#print(list(llist.print_list()))
+#print(list(llist.get_list()))
 llist.add_node(2)
-print(list(llist.print_list()))
+print(list(llist.get_list()))
 llist.add_node(3)
 llist.add_node(4)
-print(list(llist.print_list()))
+print(list(llist.get_list()))
 llist.remove_node(2)
-print(list(llist.print_list()))
+print(list(llist.get_list()))
 llist.remove_node(1)
 llist.remove_node(3)
 llist.remove_node(4)
-print(list(llist.print_list()))
+print(list(llist.get_list()))
 llist.add_node(1)
 llist.add_node(2)
 llist.add_node(3)
-llist.add_node(4)
-llist.add_node(5)
-llist.add_node(6)
-print(list(llist.print_list()))
+llist.add_node(3)
+llist.add_node(2)
+llist.add_node(11)
+print(list(llist.get_list()))
 llist.reverse_ll()
-
-print(list(llist.print_list()))
+print(list(llist.get_list()))
 
 # Print from kth index to last
-print(list(llist.print_list(3)))
+print(list(llist.get_list(3)))
 #Check if palindrome
 print(llist.is_palindrome())
-
+# Delete all elemnts in list that occur more than once
+llist.delete_duplicate()
+print(list(llist.get_list()))
