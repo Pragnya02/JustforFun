@@ -78,6 +78,20 @@ class LinkedList:
       prev = temp
       temp = t_d
     self.head = prev
+  
+  #Return if LL is a Palindrome
+  def is_palindrome(self):
+    li_list = list(self.print_list())
+    print(li_list)
+    j = len(li_list)-1
+    print(j)
+    for i in range(len(li_list)):
+      if i>=j :
+        break
+      elif li_list[i] != li_list[j]:
+        return("Not a Palindrome")
+      j = j-1   
+    return("Is a Palindrome")
 
   
 llist = LinkedList()
@@ -107,3 +121,6 @@ print(list(llist.print_list()))
 
 # Print from kth index to last
 print(list(llist.print_list(3)))
+#Check if palindrome
+print(llist.is_palindrome())
+
